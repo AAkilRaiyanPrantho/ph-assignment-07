@@ -1,9 +1,9 @@
 
 const Header = () => {
     return (
-        <div>
+        <header>
             <h1 className='text-4xl font-bold'>Course Registration</h1>
-        </div>
+        </header>
     );
 };
 

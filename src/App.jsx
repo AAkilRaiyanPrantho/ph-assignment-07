@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Header from './components/header/Header'
 import Courses from './components/courses/courses'
+import Carts from './components/carts/Carts'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,7 +11,10 @@ function App() {
     <>
       
       <Header></Header>
-      <Courses></Courses>
+      <main className='flex justify-between'>
+        <Courses></Courses>
+        <Carts></Carts>
+      </main>
       
     </>
   )
