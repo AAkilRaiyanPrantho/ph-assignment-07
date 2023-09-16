@@ -1,0 +1,101 @@
+[
+    {
+      "thumbnail": "https://i.ibb.co/kMZCvb8/Rectangle-2-2.png",
+      "title": "Introduction to C Programming",
+      "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "dollar": "https://i.ibb.co/nf3dvJb/dollar-symbol.png",
+      "price": "Price:",
+      "value": 15000,
+      "book": "https://i.ibb.co/Hh4fYDP/book.png",
+      "credit": "Credit:",
+      "hour": "1hr"
+    },
+    {
+      "thumbnail": "https://i.ibb.co/ZYW5wL7/Rectangle-2-3.png",
+      "title": "Introduction to Algorithms",
+      "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "dollar": "https://i.ibb.co/nf3dvJb/dollar-symbol.png",
+      "price": "Price:",
+      "value": 25000,
+      "book": "https://i.ibb.co/Hh4fYDP/book.png",
+      "credit": "Credit:",
+      "hour": "2hr"
+    },
+    {
+      "thumbnail": "https://i.ibb.co/SxYL3PM/Rectangle-2-4.png",
+      "title": "Introduction to C++ for DSA",
+      "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "dollar": "https://i.ibb.co/nf3dvJb/dollar-symbol.png",
+      "price": "Price:",
+      "value": 10000,
+      "book": "https://i.ibb.co/Hh4fYDP/book.png",
+      "credit": "Credit:",
+      "hour": "10hr"
+    },
+    {
+      "thumbnail": "https://i.ibb.co/K2pZhxk/Rectangle-3.png",
+      "title": "Basic Data Structures",
+      "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "dollar": "https://i.ibb.co/nf3dvJb/dollar-symbol.png",
+      "price": "Price:",
+      "value": 35000,
+      "book": "https://i.ibb.co/Hh4fYDP/book.png",
+      "credit": "Credit:",
+      "hour": "5hr"
+    },
+    {
+      "thumbnail": "https://i.ibb.co/XXPnyT9/Rectangle-2.png",
+      "title": "Introduction to OOP Python",
+      "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "dollar": "https://i.ibb.co/nf3dvJb/dollar-symbol.png",
+      "price": "Price:",
+      "value": 19000,
+      "book": "https://i.ibb.co/Hh4fYDP/book.png",
+      "credit": "Credit:",
+      "hour": "5hr"
+    },
+    {
+      "thumbnail": "https://i.ibb.co/SQMyPFH/Rectangle-2-5.png",
+      "title": "Software Engineering",
+      "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "dollar": "https://i.ibb.co/nf3dvJb/dollar-symbol.png",
+      "price": "Price:",
+      "value": 23000,
+      "book": "https://i.ibb.co/Hh4fYDP/book.png",
+      "credit": "Credit:",
+      "hour": "2hr"
+    },
+    {
+      "thumbnail": "https://i.ibb.co/wYwnf4Z/Rectangle-3-1.png",
+      "title": "AWS, Cloud Computing",
+      "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "dollar": "https://i.ibb.co/nf3dvJb/dollar-symbol.png",
+      "price": "Price:",
+      "value": 35000,
+      "book": "https://i.ibb.co/Hh4fYDP/book.png",
+      "credit": "Credit:",
+      "hour": "5hr"
+    },
+    {
+      "thumbnail": "https://i.ibb.co/km6cPs4/Rectangle-2-1.png",
+      "title": "Database (MySQL)",
+      "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "dollar": "https://i.ibb.co/nf3dvJb/dollar-symbol.png",
+      "price": "Price:",
+      "value": 19000,
+      "book": "https://i.ibb.co/Hh4fYDP/book.png",
+      "credit": "Credit:",
+      "hour": "5hr"
+    },
+    {
+      "thumbnail": "https://i.ibb.co/QMBGj9N/Rectangle-2-6.png",
+      "title": "Problem-Solving Part",
+      "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "dollar": "https://i.ibb.co/nf3dvJb/dollar-symbol.png",
+      "price": "Price:",
+      "value": 23000,
+      "book": "https://i.ibb.co/Hh4fYDP/book.png",
+      "credit": "Credit:",
+      "hour": "2hr"
+    }
+  ]
