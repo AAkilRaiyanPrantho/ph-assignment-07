@@ -8,7 +8,7 @@
       "value": 15000,
       "book": "https://i.ibb.co/Hh4fYDP/book.png",
       "credit": "Credit:",
-      "hour": "1hr"
+      "hour": 1
     },
     {
       "thumbnail": "https://i.ibb.co/ZYW5wL7/Rectangle-2-3.png",
@@ -19,7 +19,7 @@
       "value": 25000,
       "book": "https://i.ibb.co/Hh4fYDP/book.png",
       "credit": "Credit:",
-      "hour": "2hr"
+      "hour": 2
     },
     {
       "thumbnail": "https://i.ibb.co/SxYL3PM/Rectangle-2-4.png",
@@ -30,7 +30,7 @@
       "value": 10000,
       "book": "https://i.ibb.co/Hh4fYDP/book.png",
       "credit": "Credit:",
-      "hour": "10hr"
+      "hour": 10
     },
     {
       "thumbnail": "https://i.ibb.co/K2pZhxk/Rectangle-3.png",
@@ -41,7 +41,7 @@
       "value": 35000,
       "book": "https://i.ibb.co/Hh4fYDP/book.png",
       "credit": "Credit:",
-      "hour": "5hr"
+      "hour": 5
     },
     {
       "thumbnail": "https://i.ibb.co/XXPnyT9/Rectangle-2.png",
@@ -52,7 +52,7 @@
       "value": 19000,
       "book": "https://i.ibb.co/Hh4fYDP/book.png",
       "credit": "Credit:",
-      "hour": "5hr"
+      "hour": 5
     },
     {
       "thumbnail": "https://i.ibb.co/SQMyPFH/Rectangle-2-5.png",
@@ -63,7 +63,7 @@
       "value": 23000,
       "book": "https://i.ibb.co/Hh4fYDP/book.png",
       "credit": "Credit:",
-      "hour": "2hr"
+      "hour": 2
     },
     {
       "thumbnail": "https://i.ibb.co/wYwnf4Z/Rectangle-3-1.png",
@@ -74,7 +74,7 @@
       "value": 35000,
       "book": "https://i.ibb.co/Hh4fYDP/book.png",
       "credit": "Credit:",
-      "hour": "5hr"
+      "hour": 5
     },
     {
       "thumbnail": "https://i.ibb.co/km6cPs4/Rectangle-2-1.png",
@@ -85,7 +85,7 @@
       "value": 19000,
       "book": "https://i.ibb.co/Hh4fYDP/book.png",
       "credit": "Credit:",
-      "hour": "5hr"
+      "hour": 5
     },
     {
       "thumbnail": "https://i.ibb.co/QMBGj9N/Rectangle-2-6.png",
@@ -96,6 +96,6 @@
       "value": 23000,
       "book": "https://i.ibb.co/Hh4fYDP/book.png",
       "credit": "Credit:",
-      "hour": "2hr"
+      "hour": 2
     }
   ]
