@@ -3,7 +3,7 @@ import { useState } from "react";
 // import PropTypes from 'prop-types';
 import Course from "../course/Course";
 
-const Courses = () => {
+const Courses = ({handleSelect}) => {
   const [counts, setCounts] = useState([]);
 
   useEffect( () => {
@@ -28,7 +28,8 @@ const Courses = () => {
       {
          counts.map( (count) => <Course 
          key={count.id} 
-         course={count}></Course>)
+         course={count}
+         handleSelect={handleSelect}></Course>)
     }
       {/* {
          counts.map( (count) => {

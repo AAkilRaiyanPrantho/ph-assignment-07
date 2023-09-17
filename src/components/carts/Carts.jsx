@@ -2,8 +2,8 @@ const Carts = () => {
   return (
       <div className="flex flex-col px-4 lg:flex-col">  
         <div className="bg-base-100 p-10 relative rounded-lg lg:right-40 top-0">
-            <div className="text-xl text-[#2F80ED] font-bold">
-                <h1>Credit Hour Remaining: </h1>
+            <div className="text-xl text-[#2F80ED] font-bold my-2">
+                <h1>Credit Hour Remaining: {}hr</h1>
             </div>
             <hr />
             <div className="my-2 text-lg font-semibold">
