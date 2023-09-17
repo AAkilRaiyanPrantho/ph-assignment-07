@@ -56,7 +56,7 @@ const Course = ({ course, handleSelect, handleCreditHour, handleTotalCredit}) =>
           <div className="card-actions justify-center w-full">
             <button
               className="btn btn-primary w-[320px]"
-              onClick={() => {handleSelect(course); handleCreditHour(hour);handleTotalCredit(value)} }
+              onClick={() => {handleSelect(course); handleCreditHour(hour);handleTotalCredit(hour)} }
             >
               Select
             </button>
