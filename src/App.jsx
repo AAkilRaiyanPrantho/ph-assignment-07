@@ -12,7 +12,7 @@ function App() {
     <>
       
       <Header></Header>
-      <main className='flex justify-between'>
+      <main className='flex justify-around'>
         <Courses></Courses>
         <Carts></Carts>
       </main>

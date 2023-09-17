@@ -20,10 +20,10 @@ const Courses = () => {
   
 
   return (
-    <div className="px-10">
+    <div className="grid grid-cols-3 gap-4 px-10">
       {/* {console.log("rendering")} */}
       {/* {console.log(counts[1].title)} */}
-      <h1>Courses: {counts.length}</h1>
+      {/* <h1>Courses: {counts.length}</h1> */}
       
       {
          counts.map( (count) => <Course 
