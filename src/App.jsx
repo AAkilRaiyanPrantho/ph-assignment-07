@@ -9,18 +9,35 @@ import Course from './components/course/Course'
 function App() {
   const [selectedCourses, setSelectedCourses] = useState([]);
 
+  const [creditHours, setCreditHours] = useState(20);
+
+  const [totalCredits, setTotalCredits] = useState(0);
+
   const handleSelect = (course) => {
-    setSelectedCourses([...selectedCourses, course]);
-    console.log('Selected task handling')
+    const newCourse = [...selectedCourses, course];
+    setSelectedCourses(newCourse);
+    console.log(newCourse)
   };
+
+  const handleCreditHour = time =>{
+    console.log('Credit Hour',time);
+    const newCreditHour = creditHours - time;
+    setCreditHours(newCreditHour);
+    console.log(newCreditHour);
+  }
+  const handleTotalCredit = credit =>{
+    console.log('Total Credit',credit);
+    const newTotalCredits = totalCredits + credit;
+    setTotalCredits(newTotalCredits);
+  }
 
   return (
     <>
       
       <Header></Header>
       <main className='flex justify-around'>
-        <Courses handleSelect={handleSelect}></Courses>
-        <Carts></Carts>
+        <Courses handleSelect={handleSelect} handleCreditHour={handleCreditHour} handleTotalCredit={handleTotalCredit}></Courses>
+        <Carts selectedCourses={selectedCourses} creditHours={creditHours} totalCredits={totalCredits}></Carts>
       </main>
       
     </>

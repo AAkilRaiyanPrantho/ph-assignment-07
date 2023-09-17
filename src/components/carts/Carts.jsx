@@ -1,19 +1,27 @@
-const Carts = () => {
+import PropTypes from "prop-types";
+import Cart from "../Cart/Cart";
+
+
+const Carts = ({selectedCourses,creditHours,totalCredits}) => {
   return (
       <div className="flex flex-col px-4 lg:flex-col">  
-        <div className="bg-base-100 p-10 relative rounded-lg lg:right-40 top-0">
+      {/* <div><h2>selectedCourses: {selectedCourses.length}</h2></div> */}
+        <div className="bg-base-100 p-10 relative rounded-lg lg:right-32 top-0">
             <div className="text-xl text-[#2F80ED] font-bold my-2">
-                <h1>Credit Hour Remaining: {}hr</h1>
+                <h1>Credit Hour Remaining: {creditHours} hr</h1>
             </div>
             <hr />
             <div className="my-2 text-lg font-semibold">
                 <h1 className="font-bold text-2xl">Course Name</h1>
-              <ol id="cart-list" className="list-decimal relative left-5">
-              </ol>
+                {
+                    selectedCourses.map(selectedCourse => <Cart key={selectedCourse.id} cart={selectedCourse}></Cart>)
+                }
+              {/* <ol id="cart-list" className="list-decimal relative left-5">
+              </ol> */}
             </div>
             <hr />
             <div className="my-2">
-                <p className="text-xl font-medium mb-2">Total Credit Hour: <span id="total-Price" className="text-[gray]">0.00 </span><span className="text-[gray]">hr</span></p>
+                <p className="text-xl font-medium mb-2">Total Credit Hour: {totalCredits}</p>
             </div>
             <hr />
 
@@ -28,5 +36,12 @@ const Carts = () => {
     
   );
 };
+
+Carts.propTypes = {
+    // course: PropTypes.object.isRequired,
+    selectedCourses: PropTypes.array,
+    creditHours: PropTypes.number,
+    totalCredits: PropTypes.number,
+  };
 
 export default Carts;

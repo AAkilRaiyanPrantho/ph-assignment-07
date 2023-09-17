@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 // import { useEffect } from "react";
 // import { useState } from "react";
 
-const Course = ({ course, handleSelect }) => {
+const Course = ({ course, handleSelect, handleCreditHour, handleTotalCredit}) => {
   //   console.log(course);
 //   const [selectedCourses, setSelectedCourses] = useState([]);
 //   console.log(...selectedCourses);
@@ -56,7 +56,7 @@ const Course = ({ course, handleSelect }) => {
           <div className="card-actions justify-center w-full">
             <button
               className="btn btn-primary w-[320px]"
-              onClick={handleSelect}
+              onClick={() => {handleSelect(course); handleCreditHour(hour);handleTotalCredit(value)} }
             >
               Select
             </button>
@@ -69,6 +69,9 @@ const Course = ({ course, handleSelect }) => {
 
 Course.propTypes = {
   course: PropTypes.object.isRequired,
+  handleSelect: PropTypes.func,
+  handleCreditHour: PropTypes.func,
+  handleTotalCredit: PropTypes.func,
 };
 
 export default Course;

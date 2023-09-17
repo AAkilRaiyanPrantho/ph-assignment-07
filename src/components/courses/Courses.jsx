@@ -2,8 +2,9 @@ import { useEffect } from "react";
 import { useState } from "react";
 // import PropTypes from 'prop-types';
 import Course from "../course/Course";
+import PropTypes from "prop-types";
 
-const Courses = ({handleSelect}) => {
+const Courses = ({handleSelect, handleCreditHour, handleTotalCredit}) => {
   const [counts, setCounts] = useState([]);
 
   useEffect( () => {
@@ -29,7 +30,9 @@ const Courses = ({handleSelect}) => {
          counts.map( (count) => <Course 
          key={count.id} 
          course={count}
-         handleSelect={handleSelect}></Course>)
+         handleSelect={handleSelect}
+         handleCreditHour={handleCreditHour}
+         handleTotalCredit={handleTotalCredit}></Course>)
     }
       {/* {
          counts.map( (count) => {
@@ -60,6 +63,14 @@ const Courses = ({handleSelect}) => {
     //     </div>
     // </div>
   );
+};
+
+Courses.propTypes = {
+  // course: PropTypes.object.isRequired,
+  handleSelect: PropTypes.func,
+  handleCreditHour: PropTypes.func,
+  handleTotalCredit: PropTypes.func,
+  
 };
 
 export default Courses;
